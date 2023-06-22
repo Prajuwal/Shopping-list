@@ -1,0 +1,45 @@
+.item-each{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+   gap: 10px;
+}
+button {
+  width:100px;
+  text-align:center;
+  height:20px;
+}
+.write-off {
+  color: #888;
+  text-decoration: line-through;
+}
+input{
+  width:80%;
+  margin:10px;
+}
+.suggestionBtn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  color:red;
+  border:none;
+  margin:10px;
+  text-align: center;
+  background-color: transparent;
+ min-width: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Adjust as needed */
+}
+
+.suggestions {
+  flex-shrink: 0; /* Prevents suggestions from affecting container height */
+}
+
+.list {
+  flex-grow: 1; /* Takes remaining space in the container */
+  overflow-y: auto; /* Adds vertical scrollbar if list exceeds container height */
+}
