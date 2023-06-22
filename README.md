@@ -1,4 +1,4 @@
-# Shopping list - React template
+# Shopping list - React 
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/prajuwal/pen/XWyjvdp](https://codepen.io/prajuwal/pen/XWyjvdp).
+
 
